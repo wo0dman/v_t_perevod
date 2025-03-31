@@ -5,7 +5,7 @@ from pydub import AudioSegment
 import speech_recognition as sr
 
 # Конфигурация
-TOKEN = ""
+TOKEN = "input API here"
 MAX_FILE_SIZE = 20 * 1024 * 1024  # 20MB максимальный размер файла
 SUPPORTED_LANGUAGES = {'ru': 'ru-RU', 'en': 'en-US'}
 
